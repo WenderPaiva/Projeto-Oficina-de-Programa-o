@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KYNX | Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container topbar">
+            <a href="../Loja Virtual Sneakers/indexx.html" class="brand" aria-label="KYNX pagina inicial">
+                <img src="../Images/logo.png" alt="Logo KYNX">
+                <div class="brand-text">
+                    <span class="brand-title">KYNX</span>
+                    <span class="brand-subtitle">Sneakers Store</span>
+                </div>
+            </a>
+
+            <nav aria-label="Navegacao principal" class="site-nav">
+                <a href="../Loja Virtual Sneakers/indexx.html">Inicio</a>
+                <a href="catalogo.html">Catalogo</a>
+                <a href="produto.html">Produtos</a>
+                <a href="cadastro.html" aria-current="page">Cadastro</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <div class="container">
+                <p class="eyebrow">Formulario completo</p>
+                <h1>Crie sua conta na KYNX</h1>
+                <p>Esta pagina mantem o cadastro como parte central da loja, com mais campos e uma apresentacao mais organizada.</p>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <div class="container form-layout">
+                <article class="info-card">
+                    <img src="../Images/logo.png" alt="Logo KYNX" class="info-logo">
+                    <h2>Por que fazer o cadastro?</h2>
+                    <p>Com a conta criada, o usuario consegue acompanhar novos lancamentos, explorar a vitrine completa e reservar os modelos em destaque.</p>
+
+                    <ul class="feature-list">
+                        <li>Formulario objetivo para um projeto academico.</li>
+                        <li>Campos organizados para facilitar a leitura.</li>
+                        <li>Ligacao direta com o catalogo e a pagina de produtos.</li>
+                    </ul>
+
+                    <a href="catalogo.html" class="btn btn-secondary">Ver catalogo</a>
+                </article>
+
+                <form class="form-card" action="#" method="post">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cidade">Cidade</label>
+                            <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="senha">Senha</label>
+                            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="tamanho">Tamanho favorito</label>
+                            <select id="tamanho" name="tamanho" required>
+                                <option value="">Selecione</option>
+                                <option value="37">37</option>
+                                <option value="38">38</option>
+                                <option value="39">39</option>
+                                <option value="40">40</option>
+                                <option value="41">41</option>
+                                <option value="42">42</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="preferencia">Linha favorita</label>
+                        <select id="preferencia" name="preferencia" required>
+                            <option value="">Escolha uma opcao</option>
+                            <option value="classicos">Classicos</option>
+                            <option value="streetwear">Streetwear</option>
+                            <option value="lancamentos">Lancamentos</option>
+                            <option value="conceituais">Linha KYNX</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn form-button">Cadastrar usuario</button>
+                    <p class="form-helper">Projeto academico construido apenas com HTML e CSS.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>KYNX | Formulario de cadastro do usuario.</p>
+
+            <nav aria-label="Links do rodape" class="footer-nav">
+                <a href="../Loja Virtual Sneakers/indexx.html">Inicio</a>
+                <a href="catalogo.html">Catalogo</a>
+                <a href="produto.html">Produtos</a>
+                <a href="cadastro.html" aria-current="page">Cadastro</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

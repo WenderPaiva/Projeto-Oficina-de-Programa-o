@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KYNX | Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container topbar">
+            <a href="indexx.html" class="brand" aria-label="KYNX pagina inicial">
+                <img src="../Images/logo.png" alt="Logo KYNX">
+                <div class="brand-text">
+                    <span class="brand-title">KYNX</span>
+                    <span class="brand-subtitle">Sneakers Store</span>
+                </div>
+            </a>
+
+            <nav aria-label="Navegacao principal" class="site-nav">
+                <a href="indexx.html" aria-current="page">Inicio</a>
+                <a href="../Pages/catalogo.html">Catalogo</a>
+                <a href="../Pages/produto.html">Produtos</a>
+                <a href="../Pages/cadastro.html">Cadastro</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid hero-grid-single">
+                <section class="form-card highlight-card" id="cadastro-rapido">
+                    <p class="eyebrow">Cadastro rapido</p>
+                    <h2>Crie sua conta para acompanhar os proximos drops.</h2>
+
+                    <form action="#" method="post">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nome-inicio">Nome completo</label>
+                                <input type="text" id="nome-inicio" name="nome" placeholder="Digite seu nome" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="telefone-inicio">Telefone</label>
+                                <input type="tel" id="telefone-inicio" name="telefone" placeholder="(00) 00000-0000" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email-inicio">E-mail</label>
+                            <input type="email" id="email-inicio" name="email" placeholder="Digite seu e-mail" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="senha-inicio">Senha</label>
+                                <input type="password" id="senha-inicio" name="senha" placeholder="Crie uma senha" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="tamanho-inicio">Tamanho favorito</label>
+                                <select id="tamanho-inicio" name="tamanho" required>
+                                    <option value="">Selecione</option>
+                                    <option value="37">37</option>
+                                    <option value="38">38</option>
+                                    <option value="39">39</option>
+                                    <option value="40">40</option>
+                                    <option value="41">41</option>
+                                    <option value="42">42</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn form-button">Finalizar cadastro</button>
+                    </form>
+
+                    <p class="form-helper">
+                        Depois do cadastro, voce pode ir direto para o catalogo ou consultar os detalhes de cada modelo.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="../Pages/catalogo.html" class="btn btn-secondary">Explorar catalogo</a>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="benefits">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Melhorias do projeto</p>
+                    <h2>Uma estrutura mais organizada para apresentar a loja.</h2>
+                    <p>
+                        O site ficou mais consistente, com entrada principal definida, navegacao mais clara e identidade visual
+                        aplicada de forma padronizada.
+                    </p>
+                </div>
+
+                <div class="benefits-grid">
+                    <article class="info-card">
+                        <h2>Entrada mais intuitiva</h2>
+                        <p>O usuario encontra primeiro o formulario de cadastro e depois segue para o restante da experiencia.</p>
+                    </article>
+
+                    <article class="info-card">
+                        <h2>Catalogo expandido</h2>
+                        <p>Novos cards foram adicionados para deixar a vitrine mais completa e visualmente equilibrada.</p>
+                    </article>
+
+                    <article class="info-card">
+                        <h2>Codigo mais organizado</h2>
+                        <p>Os caminhos, componentes e estilos ficaram mais consistentes para facilitar a apresentacao do trabalho.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="produtos">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Preview do catalogo</p>
+                    <h2>Alguns modelos que aparecem na vitrine principal.</h2>
+                    <p>O catalogo agora conta com mais sneakers, incluindo opcoes classicas e modelos conceituais da linha KYNX.</p>
+                </div>
+
+                <div class="grid-produtos">
+                    <article class="card">
+                        <span class="card-badge">Destaque</span>
+                        <div class="card-media">
+                            <img src="../Images/dunk.png" alt="Nike Dunk Low Graffiti" class="tone-original">
+                        </div>
+                        <h3>Nike Dunk Low Graffiti</h3>
+                        <p class="card-description">Modelo artistico de cano baixo com visual urbano e proposta casual.</p>
+                        <p class="card-price">R$ 899,90</p>
+                        <a href="../Pages/produto.html#dunk" class="card-link">Ver detalhes</a>
+                    </article>
+
+                    <article class="card">
+                        <span class="card-badge">Linha KYNX</span>
+                        <div class="card-media">
+                            <img src="../Images/dunk.png" alt="KYNX Pulse Low" class="tone-cool">
+                        </div>
+                        <h3>KYNX Pulse Low</h3>
+                        <p class="card-description">Variacao conceitual com acabamento frio e visual preparado para a colecao urbana.</p>
+                        <p class="card-price">R$ 759,90</p>
+                        <a href="../Pages/produto.html#pulse" class="card-link">Ver detalhes</a>
+                    </article>
+
+                    <article class="card">
+                        <span class="card-badge">Classico</span>
+                        <div class="card-media">
+                            <img src="../Images/jordan.png" alt="Air Jordan 1 Mid Chicago" class="tone-original">
+                        </div>
+                        <h3>Air Jordan 1 Mid Chicago</h3>
+                        <p class="card-description">Silhueta tradicional com combinacao marcante de vermelho, branco e preto.</p>
+                        <p class="card-price">R$ 1.299,90</p>
+                        <a href="../Pages/produto.html#jordan" class="card-link">Ver detalhes</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>KYNX | Projeto academico de Oficina de Programacao.</p>
+
+            <nav aria-label="Links do rodape" class="footer-nav">
+                <a href="indexx.html" aria-current="page">Inicio</a>
+                <a href="../Pages/catalogo.html">Catalogo</a>
+                <a href="../Pages/produto.html">Produtos</a>
+                <a href="../Pages/cadastro.html">Cadastro</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
